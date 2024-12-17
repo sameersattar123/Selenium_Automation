@@ -27,47 +27,41 @@ public class lec04Practice {
         driver.manage().window().maximize();
 
         // XPath with single attribute
-        // driver.findElement(By.xpath("//input[@id='downshift-0-input']")).sendKeys("urdu");
-        // driver.findElement(By.xpath("//*[@id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//input[@id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//*[@id='downshift-0-input']")).sendKeys("urdu");
 
         // XPath with multiple attributes using and key words
-        // driver.findElement(By.xpath("//input[@type='text' and
-        // @id='downshift-0-input']")).sendKeys("urdu");
-        // driver.findElement(By.xpath("//*[@type='' and
-        // @id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//input[@type='text' and @id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//*[@type='' and @id='downshift-0-input']")).sendKeys("urdu");
 
         // XPath with multiple attributes using or key words
-        // driver.findElement(By.xpath("//input[@type='text' or
-        // @id='downshift-0-input']")).sendKeys("urdu");
-        // driver.findElement(By.xpath("//*[@type='' or
-        // @id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//input[@type='text' or @id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//*[@type='' or @id='downshift-0-input']")).sendKeys("urdu");
 
         // XPath with multiple attributes
-        // driver.findElement(By.xpath("//input[@type='text'][@id='downshift-0-input']")).sendKeys("urdu");
-        // driver.findElement(By.xpath("//*[@type='text'][@id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//input[@type='text'][@id='downshift-0-input']")).sendKeys("urdu");
+        driver.findElement(By.xpath("//*[@type='text'][@id='downshift-0-input']")).sendKeys("urdu");
 
         // XPath with inner text using text()
-        // driver.findElement(By.xpath("//*[text()='Get Started']")).click();
+         driver.findElement(By.xpath("//*[text()='Get Started']")).click();
 
-        // boolean textDisplayedStatus =
-        // driver.findElement(By.xpath("//*[text()='Join']")).isDisplayed();
-        // if (textDisplayedStatus) {
-        // System.out.println("Test Passed");
-        // } else {
-        // System.out.println("Test Failed");
-        // }
+        boolean textDisplayedStatus =
+        driver.findElement(By.xpath("//*[text()='Join']")).isDisplayed();
+        if (textDisplayedStatus) {
+        System.out.println("Test Passed");
+        } else {
+        System.out.println("Test Failed");
+        }
 
-        // String getbtnText =
-        // driver.findElement(By.xpath("//*[text()='Join']")).getText();
-        // System.out.println(getbtnText);
+        String getbtnText =
+        driver.findElement(By.xpath("//*[text()='Join']")).getText();
+        System.out.println(getbtnText);
 
         // XPath with Contain
-        // driver.findElement(By.xpath("//input[contains(@placeholder , 'Search online
-        // classes and tutors')]")).sendKeys("organic chemistry");
+        driver.findElement(By.xpath("//input[contains(@placeholder , 'Search online classes and tutors')]")).sendKeys("organic chemistry");
 
         // XPath with starts-with
-        // driver.findElement(By.xpath("//input[starts-with(@placeholder ,
-        // 'Search')]")).sendKeys("chemistry");
+        driver.findElement(By.xpath("//input[starts-with(@placeholder ,'Search')]")).sendKeys("chemistry");
 
         // Chained XPath ( combination of absolute and relative XPath)
         boolean isLogoDisplayed = driver.findElement(By.xpath("//div[@class='css-15r8ub5']/div/div/div/span"))
