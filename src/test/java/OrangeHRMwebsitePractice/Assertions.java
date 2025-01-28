@@ -11,18 +11,18 @@ public class Assertions {
         // Hard Assertions
 
         Assert.assertEquals("sameer", "sameer"); // passes
-        Assert.assertEquals(123, 333); // failed
+        //Assert.assertEquals(123, 333); // failed
 
-        Assert.assertNotEquals("sameer", "sameer"); // failed
+        //Assert.assertNotEquals("sameer", "sameer"); // failed
         Assert.assertNotEquals("sameer", "samee"); // passed
 
-        Assert.assertTrue(false); // failed
+        //Assert.assertTrue(false); // failed
         Assert.assertTrue(true); // passed
 
-        Assert.assertFalse(true); // failed
+        //Assert.assertFalse(true); // failed
         Assert.assertFalse(false); // passed
 
-        Assert.fail();
+        //Assert.fail();
 
     }
 
