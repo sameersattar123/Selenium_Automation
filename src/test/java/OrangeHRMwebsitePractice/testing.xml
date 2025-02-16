@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="groupingsuite">
+    <test name="groupingtests">
+        <groups>
+            <run>
+                <!-- if only  all sanity tests execute -->
+                <include name="sanity"></include>
+                <exclude name="regression"></exclude>
+                <!-- if only regression tests execute -->
+                <include name="regression"></include>
+                <exclude name="sanity"></exclude>
+                <!-- if only functional tests execute -->
+                <include name="functional"></include>
+                <!-- want to execute both sanity and regression tests  -->
+                <include name="sanity"></include>
+                <include name="regression"></include>
+
+            </run>
+        </groups>
+        <classes>
+            <class name="OrangeHRMwebsitePractice.SignUpTests" />
+        </classes>
+    </test>
+</suite>
