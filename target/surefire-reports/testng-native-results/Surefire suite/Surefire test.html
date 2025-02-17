@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/3</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Feb 16 04:14:01 PKT 2025</td>
+<td>Started on:</td><td>Tue Feb 18 00:27:05 PKT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>26 seconds (26981 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18851 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,70 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.ParamTest.setup()'><b>setup</b><br>Test class: OrangeHRMwebsitePractice.ParamTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace864138492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace864138492'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>-1739820443</td>
+<td>OrangeHRMwebsitePractice.ParamTest@29176cc1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.ParamTest.close()'><b>close</b><br>Test class: OrangeHRMwebsitePractice.ParamTest</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.ParamTest@29176cc1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,100 +140,232 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='TestNg.firstTestCase.login()'><b>login</b><br>Test class: TestNg.firstTestCase</td>
+<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithFacebook()'><b>SignUpWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
 <td></td>
 <td>0</td>
-<td>TestNg.firstTestCase@143640d5</td></tr>
+<td>OrangeHRMwebsitePractice.SignUpTests@4278a03f</td></tr>
 <tr>
 <td title='OrangeHRMwebsitePractice.firstTestCase.checkLogo()'><b>checkLogo</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
 <td></td>
 <td>3</td>
-<td>OrangeHRMwebsitePractice.firstTestCase@6b419da</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithInstagram()'><b>LoginWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.LoginTests@78b1cc93</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithEmail()'><b>LoginWithEmail</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.LoginTests@78b1cc93</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.firstTestCase.logout()'><b>logout</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.firstTestCase@6b419da</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithGoogle()'><b>SignUpWithGoogle</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.SignUpTests@21507a04</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithFacebook()'><b>SignUpWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.SignUpTests@21507a04</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithInstagram()'><b>PaymentWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.PaymentTests@6646153</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.firstTestCase.openApp()'><b>openApp</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
-<td></td>
-<td>20</td>
-<td>OrangeHRMwebsitePractice.firstTestCase@6b419da</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.firstTestCase.login()'><b>login</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
-<td></td>
-<td>2</td>
-<td>OrangeHRMwebsitePractice.firstTestCase@6b419da</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithEmail()'><b>PaymentWithEmail</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.PaymentTests@6646153</td></tr>
-<tr>
-<td title='TestNg.firstTestCase.logout()'><b>logout</b><br>Test class: TestNg.firstTestCase</td>
-<td></td>
-<td>0</td>
-<td>TestNg.firstTestCase@143640d5</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithFacebook()'><b>LoginWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.LoginTests@78b1cc93</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithInstagram()'><b>SignUpWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.SignUpTests@21507a04</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithEmail()'><b>SignUpWithEmail</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.SignUpTests@21507a04</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithFacebook()'><b>PaymentWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.PaymentTests@6646153</td></tr>
-<tr>
-<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithGoogle()'><b>LoginWithGoogle</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
-<td></td>
-<td>0</td>
-<td>OrangeHRMwebsitePractice.LoginTests@78b1cc93</td></tr>
+<td>OrangeHRMwebsitePractice.firstTestCase@4387b79e</td></tr>
 <tr>
 <td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithGoogle()'><b>PaymentWithGoogle</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
 <td></td>
 <td>0</td>
-<td>OrangeHRMwebsitePractice.PaymentTests@6646153</td></tr>
+<td>OrangeHRMwebsitePractice.PaymentTests@2f177a4b</td></tr>
+<tr>
+<td title='TestNg.firstTestCase.logout()'><b>logout</b><br>Test class: TestNg.firstTestCase</td>
+<td></td>
+<td>0</td>
+<td>TestNg.firstTestCase@147ed70f</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.firstTestCase.logout()'><b>logout</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.firstTestCase@4387b79e</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithInstagram()'><b>SignUpWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.SignUpTests@4278a03f</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.firstTestCase.login()'><b>login</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
+<td></td>
+<td>2</td>
+<td>OrangeHRMwebsitePractice.firstTestCase@4387b79e</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithFacebook()'><b>PaymentWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.PaymentTests@2f177a4b</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithFacebook()'><b>LoginWithFacebook</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.LoginTests@2aa3cd93</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithEmail()'><b>PaymentWithEmail</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.PaymentTests@2f177a4b</td></tr>
+<tr>
+<td title='TestNg.firstTestCase.login()'><b>login</b><br>Test class: TestNg.firstTestCase</td>
+<td></td>
+<td>0</td>
+<td>TestNg.firstTestCase@147ed70f</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithEmail()'><b>LoginWithEmail</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.LoginTests@2aa3cd93</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithGoogle()'><b>LoginWithGoogle</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.LoginTests@2aa3cd93</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.LoginTests.LoginWithInstagram()'><b>LoginWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.LoginTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.LoginTests@2aa3cd93</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithEmail()'><b>SignUpWithEmail</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.SignUpTests@4278a03f</td></tr>
 <tr>
 <td title='TestNg.firstTestCase.openApp()'><b>openApp</b><br>Test class: TestNg.firstTestCase</td>
 <td></td>
 <td>0</td>
-<td>TestNg.firstTestCase@143640d5</td></tr>
+<td>TestNg.firstTestCase@147ed70f</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.firstTestCase.openApp()'><b>openApp</b><br>Test class: OrangeHRMwebsitePractice.firstTestCase</td>
+<td></td>
+<td>12</td>
+<td>OrangeHRMwebsitePractice.firstTestCase@4387b79e</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.SignUpTests.SignUpWithGoogle()'><b>SignUpWithGoogle</b><br>Test class: OrangeHRMwebsitePractice.SignUpTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.SignUpTests@4278a03f</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.PaymentTests.PaymentWithInstagram()'><b>PaymentWithInstagram</b><br>Test class: OrangeHRMwebsitePractice.PaymentTests</td>
+<td></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.PaymentTests@2f177a4b</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.ParamTest.testUrl()'><b>testUrl</b><br>Test class: OrangeHRMwebsitePractice.ParamTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1429483328", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1429483328'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.ParamTest@29176cc1</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.ParamTest.testTitle()'><b>testTitle</b><br>Test class: OrangeHRMwebsitePractice.ParamTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace172794870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace172794870'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.ParamTest@29176cc1</td></tr>
+<tr>
+<td title='OrangeHRMwebsitePractice.ParamTest.testLogo()'><b>testLogo</b><br>Test class: OrangeHRMwebsitePractice.ParamTest</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2001115307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2001115307'><pre>org.testng.TestNGException: 
+Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParams(Parameters.java:264)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+</pre></div></td>
+<td>0</td>
+<td>OrangeHRMwebsitePractice.ParamTest@29176cc1</td></tr>
 </table><p>
 </body>
 </html>

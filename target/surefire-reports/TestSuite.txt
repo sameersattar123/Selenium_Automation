@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 19, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.109 s - in TestSuite
+Tests run: 24, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 20.645 s <<< FAILURE! - in TestSuite
+setup(OrangeHRMwebsitePractice.ParamTest)  Time elapsed: 0.033 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+

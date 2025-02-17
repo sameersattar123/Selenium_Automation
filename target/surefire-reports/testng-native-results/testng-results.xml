@@ -1,113 +1,305 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="22" passed="19" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-16T04:14:01 PKT" name="Surefire suite" finished-at="2025-02-16T04:14:28 PKT" duration-ms="26981">
+  <suite started-at="2025-02-18T00:27:05 PKT" name="Surefire suite" finished-at="2025-02-18T00:27:24 PKT" duration-ms="18851">
     <groups>
+      <group name="functional">
+        <method signature="PaymentTests.PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithEmail" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="PaymentTests.PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithGoogle" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="PaymentTests.PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithFacebook" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="PaymentTests.PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithInstagram" class="OrangeHRMwebsitePractice.PaymentTests"/>
+      </group> <!-- functional -->
       <group name="regression">
-        <method signature="PaymentTests.PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithEmail" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="SignUpTests.SignUpWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" name="SignUpWithEmail" class="OrangeHRMwebsitePractice.SignUpTests"/>
-        <method signature="PaymentTests.PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithGoogle" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="SignUpTests.SignUpWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" name="SignUpWithGoogle" class="OrangeHRMwebsitePractice.SignUpTests"/>
-        <method signature="PaymentTests.PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithFacebook" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="SignUpTests.SignUpWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" name="SignUpWithFacebook" class="OrangeHRMwebsitePractice.SignUpTests"/>
-        <method signature="PaymentTests.PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithInstagram" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="SignUpTests.SignUpWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" name="SignUpWithInstagram" class="OrangeHRMwebsitePractice.SignUpTests"/>
+        <method signature="PaymentTests.PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithEmail" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="SignUpTests.SignUpWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" name="SignUpWithEmail" class="OrangeHRMwebsitePractice.SignUpTests"/>
+        <method signature="PaymentTests.PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithGoogle" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="SignUpTests.SignUpWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" name="SignUpWithGoogle" class="OrangeHRMwebsitePractice.SignUpTests"/>
+        <method signature="PaymentTests.PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithFacebook" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="SignUpTests.SignUpWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" name="SignUpWithFacebook" class="OrangeHRMwebsitePractice.SignUpTests"/>
+        <method signature="PaymentTests.PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithInstagram" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="SignUpTests.SignUpWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" name="SignUpWithInstagram" class="OrangeHRMwebsitePractice.SignUpTests"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="LoginTests.LoginWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" name="LoginWithEmail" class="OrangeHRMwebsitePractice.LoginTests"/>
-        <method signature="PaymentTests.PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithEmail" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="LoginTests.LoginWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" name="LoginWithGoogle" class="OrangeHRMwebsitePractice.LoginTests"/>
-        <method signature="PaymentTests.PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithGoogle" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="LoginTests.LoginWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" name="LoginWithFacebook" class="OrangeHRMwebsitePractice.LoginTests"/>
-        <method signature="PaymentTests.PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithFacebook" class="OrangeHRMwebsitePractice.PaymentTests"/>
-        <method signature="LoginTests.LoginWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" name="LoginWithInstagram" class="OrangeHRMwebsitePractice.LoginTests"/>
-        <method signature="PaymentTests.PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" name="PaymentWithInstagram" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="LoginTests.LoginWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" name="LoginWithEmail" class="OrangeHRMwebsitePractice.LoginTests"/>
+        <method signature="PaymentTests.PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithEmail" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="LoginTests.LoginWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" name="LoginWithGoogle" class="OrangeHRMwebsitePractice.LoginTests"/>
+        <method signature="PaymentTests.PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithGoogle" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="LoginTests.LoginWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" name="LoginWithFacebook" class="OrangeHRMwebsitePractice.LoginTests"/>
+        <method signature="PaymentTests.PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithFacebook" class="OrangeHRMwebsitePractice.PaymentTests"/>
+        <method signature="LoginTests.LoginWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" name="LoginWithInstagram" class="OrangeHRMwebsitePractice.LoginTests"/>
+        <method signature="PaymentTests.PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" name="PaymentWithInstagram" class="OrangeHRMwebsitePractice.PaymentTests"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-02-16T04:14:01 PKT" name="Surefire test" finished-at="2025-02-16T04:14:28 PKT" duration-ms="26981">
+    <test started-at="2025-02-18T00:27:05 PKT" name="Surefire test" finished-at="2025-02-18T00:27:24 PKT" duration-ms="18851">
+      <class name="OrangeHRMwebsitePractice.ParamTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:OrangeHRMwebsitePractice.ParamTest@29176cc1]" started-at="2025-02-18T00:27:23 PKT" name="setup" finished-at="1970-01-01T05:00:00 PKT" duration-ms="-1739820443971" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUrl()[pri:2, instance:OrangeHRMwebsitePractice.ParamTest@29176cc1]" started-at="2025-02-18T00:27:24 PKT" name="testUrl" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUrl -->
+        <test-method signature="testLogo()[pri:1, instance:OrangeHRMwebsitePractice.ParamTest@29176cc1]" started-at="2025-02-18T00:27:24 PKT" name="testLogo" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:3, instance:OrangeHRMwebsitePractice.ParamTest@29176cc1]" started-at="2025-02-18T00:27:24 PKT" name="testTitle" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:135)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:193)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:94)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:146)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method is-config="true" signature="close()[pri:0, instance:OrangeHRMwebsitePractice.ParamTest@29176cc1]" started-at="2025-02-18T00:27:24 PKT" name="close" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- OrangeHRMwebsitePractice.ParamTest -->
       <class name="OrangeHRMwebsitePractice.PaymentTests">
-        <test-method signature="PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" started-at="2025-02-16T04:14:28 PKT" name="PaymentWithEmail" finished-at="2025-02-16T04:14:28 PKT" duration-ms="5" status="PASS">
+        <test-method signature="PaymentWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" started-at="2025-02-18T00:27:24 PKT" name="PaymentWithEmail" finished-at="2025-02-18T00:27:24 PKT" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentWithEmail -->
-        <test-method signature="PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" started-at="2025-02-16T04:14:28 PKT" name="PaymentWithGoogle" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
+        <test-method signature="PaymentWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" started-at="2025-02-18T00:27:24 PKT" name="PaymentWithGoogle" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentWithGoogle -->
-        <test-method signature="PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" started-at="2025-02-16T04:14:28 PKT" name="PaymentWithInstagram" finished-at="2025-02-16T04:14:28 PKT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- PaymentWithInstagram -->
-        <test-method signature="PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@6646153]" started-at="2025-02-16T04:14:28 PKT" name="PaymentWithFacebook" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
+        <test-method signature="PaymentWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" started-at="2025-02-18T00:27:24 PKT" name="PaymentWithFacebook" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PaymentWithFacebook -->
+        <test-method signature="PaymentWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.PaymentTests@2f177a4b]" started-at="2025-02-18T00:27:24 PKT" name="PaymentWithInstagram" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentWithInstagram -->
       </class> <!-- OrangeHRMwebsitePractice.PaymentTests -->
       <class name="TestNg.firstTestCase">
-        <test-method signature="openApp()[pri:1, instance:TestNg.firstTestCase@143640d5]" started-at="2025-02-16T04:14:28 PKT" name="openApp" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
+        <test-method signature="openApp()[pri:1, instance:TestNg.firstTestCase@147ed70f]" started-at="2025-02-18T00:27:24 PKT" name="openApp" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="login()[pri:2, instance:TestNg.firstTestCase@143640d5]" started-at="2025-02-16T04:14:28 PKT" name="login" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login -->
-        <test-method signature="logout()[pri:3, instance:TestNg.firstTestCase@143640d5]" started-at="2025-02-16T04:14:28 PKT" name="logout" finished-at="2025-02-16T04:14:28 PKT" duration-ms="5" status="PASS">
+        <test-method signature="logout()[pri:3, instance:TestNg.firstTestCase@147ed70f]" started-at="2025-02-18T00:27:24 PKT" name="logout" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
+        <test-method signature="login()[pri:2, instance:TestNg.firstTestCase@147ed70f]" started-at="2025-02-18T00:27:24 PKT" name="login" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
       </class> <!-- TestNg.firstTestCase -->
       <class name="OrangeHRMwebsitePractice.SignUpTests">
-        <test-method signature="SignUpWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" started-at="2025-02-16T04:14:28 PKT" name="SignUpWithEmail" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUpWithEmail -->
-        <test-method signature="SignUpWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" started-at="2025-02-16T04:14:28 PKT" name="SignUpWithGoogle" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SignUpWithGoogle -->
-        <test-method signature="SignUpWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" started-at="2025-02-16T04:14:28 PKT" name="SignUpWithFacebook" finished-at="2025-02-16T04:14:28 PKT" duration-ms="5" status="PASS">
+        <test-method signature="SignUpWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" started-at="2025-02-18T00:27:24 PKT" name="SignUpWithFacebook" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithFacebook -->
-        <test-method signature="SignUpWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.SignUpTests@21507a04]" started-at="2025-02-16T04:14:28 PKT" name="SignUpWithInstagram" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
+        <test-method signature="SignUpWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" started-at="2025-02-18T00:27:24 PKT" name="SignUpWithEmail" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithEmail -->
+        <test-method signature="SignUpWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" started-at="2025-02-18T00:27:24 PKT" name="SignUpWithGoogle" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUpWithGoogle -->
+        <test-method signature="SignUpWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.SignUpTests@4278a03f]" started-at="2025-02-18T00:27:24 PKT" name="SignUpWithInstagram" finished-at="2025-02-18T00:27:24 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SignUpWithInstagram -->
       </class> <!-- OrangeHRMwebsitePractice.SignUpTests -->
       <class name="OrangeHRMwebsitePractice.LoginTests">
-        <test-method signature="LoginWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" started-at="2025-02-16T04:14:28 PKT" name="LoginWithEmail" finished-at="2025-02-16T04:14:28 PKT" duration-ms="5" status="PASS">
+        <test-method signature="LoginWithEmail()[pri:1, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" started-at="2025-02-18T00:27:23 PKT" name="LoginWithEmail" finished-at="2025-02-18T00:27:23 PKT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithEmail -->
-        <test-method signature="LoginWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" started-at="2025-02-16T04:14:28 PKT" name="LoginWithGoogle" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginWithGoogle -->
-        <test-method signature="LoginWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" started-at="2025-02-16T04:14:28 PKT" name="LoginWithFacebook" finished-at="2025-02-16T04:14:28 PKT" duration-ms="3" status="PASS">
+        <test-method signature="LoginWithFacebook()[pri:3, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" started-at="2025-02-18T00:27:23 PKT" name="LoginWithFacebook" finished-at="2025-02-18T00:27:23 PKT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithFacebook -->
-        <test-method signature="LoginWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.LoginTests@78b1cc93]" started-at="2025-02-16T04:14:28 PKT" name="LoginWithInstagram" finished-at="2025-02-16T04:14:28 PKT" duration-ms="0" status="PASS">
+        <test-method signature="LoginWithGoogle()[pri:2, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" started-at="2025-02-18T00:27:23 PKT" name="LoginWithGoogle" finished-at="2025-02-18T00:27:23 PKT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithGoogle -->
+        <test-method signature="LoginWithInstagram()[pri:4, instance:OrangeHRMwebsitePractice.LoginTests@2aa3cd93]" started-at="2025-02-18T00:27:23 PKT" name="LoginWithInstagram" finished-at="2025-02-18T00:27:23 PKT" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithInstagram -->
       </class> <!-- OrangeHRMwebsitePractice.LoginTests -->
       <class name="OrangeHRMwebsitePractice.firstTestCase">
-        <test-method signature="openApp()[pri:1, instance:OrangeHRMwebsitePractice.firstTestCase@6b419da]" started-at="2025-02-16T04:14:01 PKT" name="openApp" finished-at="2025-02-16T04:14:21 PKT" duration-ms="20251" status="PASS">
+        <test-method signature="openApp()[pri:1, instance:OrangeHRMwebsitePractice.firstTestCase@4387b79e]" started-at="2025-02-18T00:27:05 PKT" name="openApp" finished-at="2025-02-18T00:27:18 PKT" duration-ms="12670" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method signature="checkLogo()[pri:2, instance:OrangeHRMwebsitePractice.firstTestCase@6b419da]" started-at="2025-02-16T04:14:21 PKT" name="checkLogo" finished-at="2025-02-16T04:14:24 PKT" duration-ms="3258" status="PASS">
+        <test-method signature="checkLogo()[pri:2, instance:OrangeHRMwebsitePractice.firstTestCase@4387b79e]" started-at="2025-02-18T00:27:18 PKT" name="checkLogo" finished-at="2025-02-18T00:27:21 PKT" duration-ms="3198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLogo -->
-        <test-method signature="login()[pri:3, instance:OrangeHRMwebsitePractice.firstTestCase@6b419da]" started-at="2025-02-16T04:14:24 PKT" name="login" finished-at="2025-02-16T04:14:27 PKT" duration-ms="2570" status="PASS">
+        <test-method signature="login()[pri:3, instance:OrangeHRMwebsitePractice.firstTestCase@4387b79e]" started-at="2025-02-18T00:27:21 PKT" name="login" finished-at="2025-02-18T00:27:23 PKT" duration-ms="2401" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="logout()[pri:4, instance:OrangeHRMwebsitePractice.firstTestCase@6b419da]" started-at="2025-02-16T04:14:27 PKT" name="logout" finished-at="2025-02-16T04:14:28 PKT" duration-ms="708" status="PASS">
+        <test-method signature="logout()[pri:4, instance:OrangeHRMwebsitePractice.firstTestCase@4387b79e]" started-at="2025-02-18T00:27:23 PKT" name="logout" finished-at="2025-02-18T00:27:23 PKT" duration-ms="314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
