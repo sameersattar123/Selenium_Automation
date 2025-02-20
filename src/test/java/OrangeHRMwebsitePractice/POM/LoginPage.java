@@ -3,6 +3,10 @@ package OrangeHRMwebsitePractice.POM;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+// POM has 2 approches 
+    // 1. without Page Factory (Most common) ========> used in this login page 
+    // 2. By Page Factory (Recomended) 
+
 public class LoginPage {
 
     // constructor
